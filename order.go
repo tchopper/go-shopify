@@ -271,6 +271,7 @@ type ShippingLines struct {
 	Price                         *decimal.Decimal `json:"price,omitempty"`
 	Code                          string           `json:"code,omitempty"`
 	Source                        string           `json:"source,omitempty"`
+	Handle                        string           `json:"handle,omitempty"`
 	Phone                         string           `json:"phone,omitempty"`
 	RequestedFulfillmentServiceID string           `json:"requested_fulfillment_service_id,omitempty"`
 	DeliveryCategory              string           `json:"delivery_category,omitempty"`
